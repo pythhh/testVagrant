@@ -1,5 +1,4 @@
-version: "3.9"
-    
+version: "3.3"
 services:
   db:
     image: mysql:5.7
@@ -11,33 +10,47 @@ services:
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
-    
+
   wordpress:
     depends_on:
       - db
     image: wordpress:latest
-    volumes:
-      - ./www/:/var/www/html/
     ports:
-      - "8000:80"
+      - 8000:80
     restart: always
     environment:
       WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
-      WORDPRESS_DB_NAME: wordpress
-  phpmyadmin:
+      WORDPRESS_TABLE_PREFIX: "wp_"
+      WORDPRESS_DEBUG: 1
+    # vstm: add shared volume
+    volumes:
+      - wp_data:/var/www/html
+
+  wordpress-cli:
     depends_on:
       - db
-    image: phpmyadmin/phpmyadmin:latest
-    restart: always
-    ports:
-      - 8686:80
-    environment:
-      PMA_HOST: db
-      MYSQL_ROOT_PASSWORD: somewordpress
-    networks:
-      - wpnetworks
+      - wordpress
+    image: wordpress:cli
+    # vstm: This is required to run wordpress-cli with the same
+    # user-id as wordpress. This way there are no permission problems
+    # when running the cli
+    user: xfs
+    # vstm: The sleep 10 is required so that the command is run after
+    # mysql is initialized. Depending on your machine this might take
+    # longer or it can go faster.
+    command: >
+      /bin/sh -c '
+      sleep 10;
+      wp core install --path="/var/www/html" --url="http://localhost:8000" --title="Local Wordpress By Docker" --admin_user=admin --admin_password=secret --admin_email=foo@bar.com
+      '
+    # vstm: add shared volume
+    volumes:
+      - wp_data:/var/www/html
+
 volumes:
-  db_data: {}
-  wordpress_data: {}
+  db_data:
+  # vstm: add shared volume
+  wp_data:
