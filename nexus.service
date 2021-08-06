@@ -1,0 +1,14 @@
+[Unit]
+Description=Nexus IQ Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/opt/nexus-iq-server/nexusiq start
+ExecStop=/opt/nexus-iq-server/nexusiq stop
+User=nexus
+Restart=on-abort
+TimeoutSec=600
+
+[Install]
+WantedBy=multi-user.target
