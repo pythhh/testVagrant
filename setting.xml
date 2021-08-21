@@ -1,0 +1,51 @@
+<settings>
+	<mirrors>
+		<mirror>
+			<id>WebApp</id>
+			<mirrorOf>*</mirrorOf>
+			<url>http://10.10.10.101:8081/repository/maven-central/</url>
+		</mirror>
+	</mirrors>
+
+	<profiles>
+		<profile>
+			<id>WebApp</id>
+			<repositories>
+				<repository>
+					<id>central</id>
+					<url>http://central</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+			</repositories>
+			<pluginRepositories>
+				<pluginRepository>
+					<id>central</id>
+					<url>http://central</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+			</pluginRepositories>
+		</profile>
+	</profiles>
+
+	<activeProfiles>
+		<activeProfile>nexus</activeProfile>
+	</activeProfiles>
+
+	<servers>
+		<server>
+			<id>nexus</id>
+			<username>admin</username>
+			<password>Admin123</password>
+		</server>
+	</servers>
+</settings>
