@@ -1,0 +1,49 @@
+#!/bin/sh
+
+### BEGIN INIT INFO
+# Provides:          nexusiq
+# Required-Start:    $all
+# Required-Stop:
+# Default-Start:     2 3 4 5
+# Default-Stop:
+# Short-Description: your description here
+### END INIT INFO
+
+NEXUS_IQ_SERVER_HOME=/opt/nexus-iq-server/
+VERSION=1.121.0-01
+JAVA_OPTIONS="-Xmx4096m -XX:+UseG1GC"
+
+RUN_AS_USER=nexus
+do_start()
+{
+    cd $NEXUS_IQ_SERVER_HOME
+    java $JAVA_OPTIONS -jar nexus-iq-server-$VERSION.jar server config.yml 2> stderr.log
+    echo "Started nexus-iq-server"
+}
+do_console()
+{
+    cd $NEXUS_IQ_SERVER_HOME
+    java $JAVA_OPTIONS -jar nexus-iq-server-$VERSION.jar server config.yml 2> stderr.log
+}
+do_stop()
+{
+    pid=`ps aux | grep nexus | awk '{print $2}'`
+    kill $pid
+    echo "Killed nexus-iq-server - PID $pid"
+}
+do_usage()
+{
+    echo "Usage: nexus-iq-server [console|start|stop]"
+}
+case $1 in
+    console)
+        do_console
+        ;;
+    start)
+        do_start
+        ;;
+    stop)
+        do_stop
+        ;;
+
+esac

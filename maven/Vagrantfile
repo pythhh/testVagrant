@@ -1,0 +1,23 @@
+
+ENV['VAGRANT_NO_PARALLEL'] = 'yes'
+
+Vagrant.configure(2) do |config|
+
+  config.vm.provision "shell", path: "maven.sh"
+
+  NodeCount = 1
+
+  (1..NodeCount).each do |i|
+    config.vm.define "maven" do |node|
+      node.vm.box = "bento/ubuntu-20.04"
+      node.vm.hostname = "maven.example.com"
+      config.vm.network "public_network", bridge: "Intel(R) Wi-Fi 6 AX201 160MHz", ip: "192.168.1.40"
+      node.vm.provider "virtualbox" do |v|
+        v.name = "maven"
+        v.memory = 4096
+        v.cpus = 1
+      end
+    end
+  end
+
+end

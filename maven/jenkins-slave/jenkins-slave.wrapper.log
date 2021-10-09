@@ -1,0 +1,293 @@
+2021-09-03 12:22:36,684 DEBUG - Starting WinSW in the CLI mode
+2021-09-03 12:22:48,585 DEBUG - Starting WinSW in the CLI mode
+2021-09-03 12:22:49,866 INFO  - Installing the service with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-03 12:22:49,919 DEBUG - Completed. Exit code is 0
+2021-09-03 12:22:50,315 DEBUG - Starting WinSW in the CLI mode
+2021-09-03 12:22:54,968 DEBUG - Starting WinSW in the CLI mode
+2021-09-03 12:22:56,279 INFO  - Starting the service with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-03 12:22:57,184 DEBUG - Starting WinSW in the service mode
+2021-09-03 12:22:57,197 DEBUG - Completed. Exit code is 0
+2021-09-03 12:22:57,219 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-03 12:22:57,233 INFO  - Extension loaded: killOnStartup
+2021-09-03 12:22:57,237 WARN  - The requested PID file 'C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid' does not exist. The runaway process won't be checked
+2021-09-03 12:22:57,420 INFO  - Started process 23008
+2021-09-03 12:22:57,428 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-03 12:22:57,431 INFO  - Recording PID of the started process:23008. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-03 12:23:37,914 DEBUG - Starting WinSW in the CLI mode
+2021-09-03 12:23:40,514 DEBUG - User requested the status of the process with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-03 12:23:40,529 DEBUG - Completed. Exit code is 0
+2021-09-06 15:42:47,435 DEBUG - Starting WinSW in the CLI mode
+2021-09-06 15:42:50,617 INFO  - Restarting the service with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-06 15:42:50,633 DEBUG - Completed. Exit code is 0
+2021-09-06 15:42:50,857 DEBUG - Starting WinSW in the CLI mode
+2021-09-06 15:42:52,728 INFO  - Restarting the service with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-06 15:42:52,820 INFO  - Stopping jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave
+2021-09-06 15:42:52,822 DEBUG - ProcessKill 23008
+2021-09-06 15:42:53,093 INFO  - Found child process: 20588 Name: conhost.exe
+2021-09-06 15:42:53,259 INFO  - Stopping process 20588
+2021-09-06 15:42:53,272 INFO  - Send SIGINT 20588
+2021-09-06 15:42:53,279 WARN  - SIGINT to 20588 failed - Killing as fallback
+2021-09-06 15:42:53,283 INFO  - Stopping process 23008
+2021-09-06 15:42:53,294 INFO  - Send SIGINT 23008
+2021-09-06 15:42:53,295 WARN  - SIGINT to 23008 failed - Killing as fallback
+2021-09-06 15:42:53,301 INFO  - Finished jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave
+2021-09-06 15:42:53,305 DEBUG - Completed. Exit code is 0
+2021-09-06 15:43:07,310 DEBUG - Starting WinSW in the service mode
+2021-09-06 15:43:07,327 DEBUG - Completed. Exit code is 0
+2021-09-06 15:43:07,335 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-06 15:43:07,351 INFO  - Extension loaded: killOnStartup
+2021-09-06 15:43:07,372 DEBUG - Checking the potentially runaway process with PID=23008
+2021-09-06 15:43:07,382 DEBUG - No runaway process with PID=23008. The process has been already stopped.
+2021-09-06 15:43:07,630 INFO  - Started process 22140
+2021-09-06 15:43:07,637 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-06 15:43:07,640 INFO  - Recording PID of the started process:22140. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-06 15:44:18,519 DEBUG - Starting WinSW in the service mode
+2021-09-06 15:44:18,549 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-06 15:44:18,561 INFO  - Extension loaded: killOnStartup
+2021-09-06 15:44:18,565 DEBUG - Checking the potentially runaway process with PID=22140
+2021-09-06 15:44:18,572 DEBUG - No runaway process with PID=22140. The process has been already stopped.
+2021-09-06 15:44:18,795 INFO  - Started process 20112
+2021-09-06 15:44:18,801 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-06 15:44:18,805 INFO  - Recording PID of the started process:20112. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-06 15:44:48,230 DEBUG - Starting WinSW in the service mode
+2021-09-06 15:44:48,252 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-06 15:44:48,257 INFO  - Extension loaded: killOnStartup
+2021-09-06 15:44:48,260 DEBUG - Checking the potentially runaway process with PID=20112
+2021-09-06 15:44:48,269 DEBUG - No runaway process with PID=20112. The process has been already stopped.
+2021-09-06 15:44:48,477 INFO  - Started process 9032
+2021-09-06 15:44:48,482 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-06 15:44:48,486 INFO  - Recording PID of the started process:9032. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-06 15:45:17,727 DEBUG - Starting WinSW in the service mode
+2021-09-06 15:45:17,748 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-06 15:45:17,754 INFO  - Extension loaded: killOnStartup
+2021-09-06 15:45:17,757 DEBUG - Checking the potentially runaway process with PID=9032
+2021-09-06 15:45:17,766 DEBUG - No runaway process with PID=9032. The process has been already stopped.
+2021-09-06 15:45:18,028 INFO  - Started process 22012
+2021-09-06 15:45:18,034 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-06 15:45:18,038 INFO  - Recording PID of the started process:22012. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-06 15:45:49,218 DEBUG - Starting WinSW in the service mode
+2021-09-06 15:45:49,239 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-06 15:45:49,244 INFO  - Extension loaded: killOnStartup
+2021-09-06 15:45:49,247 DEBUG - Checking the potentially runaway process with PID=22012
+2021-09-06 15:45:49,255 DEBUG - No runaway process with PID=22012. The process has been already stopped.
+2021-09-06 15:45:49,541 INFO  - Started process 22128
+2021-09-06 15:45:49,549 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-06 15:45:49,555 INFO  - Recording PID of the started process:22128. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-06 15:46:20,493 DEBUG - Starting WinSW in the service mode
+2021-09-06 15:46:20,572 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-06 15:46:20,612 INFO  - Extension loaded: killOnStartup
+2021-09-06 15:46:20,629 DEBUG - Checking the potentially runaway process with PID=22128
+2021-09-06 15:46:20,673 DEBUG - No runaway process with PID=22128. The process has been already stopped.
+2021-09-06 15:46:22,069 INFO  - Started process 21024
+2021-09-06 15:46:22,087 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-06 15:46:22,104 INFO  - Recording PID of the started process:21024. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-06 15:46:59,845 DEBUG - Starting WinSW in the service mode
+2021-09-06 15:47:00,177 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-06 15:47:00,217 INFO  - Extension loaded: killOnStartup
+2021-09-06 15:47:00,246 DEBUG - Checking the potentially runaway process with PID=21024
+2021-09-06 15:47:00,283 DEBUG - No runaway process with PID=21024. The process has been already stopped.
+2021-09-06 15:47:01,555 INFO  - Started process 5764
+2021-09-06 15:47:01,575 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-06 15:47:01,597 INFO  - Recording PID of the started process:5764. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-06 15:48:02,126 DEBUG - Starting WinSW in the CLI mode
+2021-09-06 15:48:03,982 DEBUG - User requested the status of the process with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-06 15:48:03,991 DEBUG - Completed. Exit code is 0
+2021-09-07 10:22:33,981 DEBUG - Starting WinSW in the CLI mode
+2021-09-07 10:22:36,107 INFO  - Restarting the service with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-07 10:22:36,122 DEBUG - Completed. Exit code is 0
+2021-09-07 10:22:36,330 DEBUG - Starting WinSW in the CLI mode
+2021-09-07 10:22:38,123 INFO  - Restarting the service with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-07 10:22:38,243 INFO  - Stopping jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave
+2021-09-07 10:22:38,246 DEBUG - ProcessKill 5764
+2021-09-07 10:22:38,567 INFO  - Found child process: 22340 Name: conhost.exe
+2021-09-07 10:22:38,738 INFO  - Stopping process 22340
+2021-09-07 10:22:38,784 INFO  - Send SIGINT 22340
+2021-09-07 10:22:38,791 WARN  - SIGINT to 22340 failed - Killing as fallback
+2021-09-07 10:22:38,800 INFO  - Stopping process 5764
+2021-09-07 10:22:38,832 INFO  - Send SIGINT 5764
+2021-09-07 10:22:38,834 WARN  - SIGINT to 5764 failed - Killing as fallback
+2021-09-07 10:22:38,839 INFO  - Finished jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave
+2021-09-07 10:22:38,844 DEBUG - Completed. Exit code is 0
+2021-09-07 10:22:42,463 DEBUG - Starting WinSW in the service mode
+2021-09-07 10:22:42,519 DEBUG - Completed. Exit code is 0
+2021-09-07 10:22:42,556 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-07 10:22:42,587 INFO  - Extension loaded: killOnStartup
+2021-09-07 10:22:42,601 DEBUG - Checking the potentially runaway process with PID=5764
+2021-09-07 10:22:42,653 DEBUG - No runaway process with PID=5764. The process has been already stopped.
+2021-09-07 10:22:43,483 INFO  - Started process 2472
+2021-09-07 10:22:43,505 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-07 10:22:43,522 INFO  - Recording PID of the started process:2472. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-07 10:23:32,494 DEBUG - Starting WinSW in the service mode
+2021-09-07 10:23:32,521 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-07 10:23:32,528 INFO  - Extension loaded: killOnStartup
+2021-09-07 10:23:32,534 DEBUG - Checking the potentially runaway process with PID=2472
+2021-09-07 10:23:32,559 DEBUG - No runaway process with PID=2472. The process has been already stopped.
+2021-09-07 10:23:32,811 INFO  - Started process 12936
+2021-09-07 10:23:32,821 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-07 10:23:32,826 INFO  - Recording PID of the started process:12936. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-07 10:24:02,345 DEBUG - Starting WinSW in the service mode
+2021-09-07 10:24:02,366 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-07 10:24:02,372 INFO  - Extension loaded: killOnStartup
+2021-09-07 10:24:02,378 DEBUG - Checking the potentially runaway process with PID=12936
+2021-09-07 10:24:02,400 DEBUG - No runaway process with PID=12936. The process has been already stopped.
+2021-09-07 10:24:02,636 INFO  - Started process 21260
+2021-09-07 10:24:02,642 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-07 10:24:02,647 INFO  - Recording PID of the started process:21260. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-07 10:24:32,082 DEBUG - Starting WinSW in the service mode
+2021-09-07 10:24:32,101 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-07 10:24:32,110 INFO  - Extension loaded: killOnStartup
+2021-09-07 10:24:32,112 DEBUG - Checking the potentially runaway process with PID=21260
+2021-09-07 10:24:32,127 DEBUG - No runaway process with PID=21260. The process has been already stopped.
+2021-09-07 10:24:32,399 INFO  - Started process 22656
+2021-09-07 10:24:32,406 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-07 10:24:32,410 INFO  - Recording PID of the started process:22656. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-07 10:26:07,520 DEBUG - Starting WinSW in the CLI mode
+2021-09-07 10:26:10,488 DEBUG - User requested the status of the process with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-07 10:26:10,500 DEBUG - Completed. Exit code is 0
+2021-09-07 13:09:05,941 DEBUG - Starting WinSW in the CLI mode
+2021-09-07 13:09:08,038 INFO  - Restarting the service with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-07 13:09:08,048 DEBUG - Completed. Exit code is 0
+2021-09-07 13:09:08,187 DEBUG - Starting WinSW in the CLI mode
+2021-09-07 13:09:09,668 INFO  - Restarting the service with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-07 13:09:09,724 INFO  - Stopping jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave
+2021-09-07 13:09:09,726 DEBUG - ProcessKill 22656
+2021-09-07 13:09:09,887 INFO  - Found child process: 15912 Name: conhost.exe
+2021-09-07 13:09:09,971 INFO  - Stopping process 15912
+2021-09-07 13:09:09,986 INFO  - Send SIGINT 15912
+2021-09-07 13:09:09,990 WARN  - SIGINT to 15912 failed - Killing as fallback
+2021-09-07 13:09:09,995 INFO  - Stopping process 22656
+2021-09-07 13:09:10,011 INFO  - Send SIGINT 22656
+2021-09-07 13:09:10,013 WARN  - SIGINT to 22656 failed - Killing as fallback
+2021-09-07 13:09:10,015 INFO  - Finished jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave
+2021-09-07 13:09:10,017 DEBUG - Completed. Exit code is 0
+2021-09-07 13:09:24,486 DEBUG - Starting WinSW in the service mode
+2021-09-07 13:09:24,510 DEBUG - Completed. Exit code is 0
+2021-09-07 13:09:24,524 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-07 13:09:24,537 INFO  - Extension loaded: killOnStartup
+2021-09-07 13:09:24,540 DEBUG - Checking the potentially runaway process with PID=22656
+2021-09-07 13:09:24,558 DEBUG - No runaway process with PID=22656. The process has been already stopped.
+2021-09-07 13:09:24,822 INFO  - Started process 2908
+2021-09-07 13:09:24,828 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-07 13:09:24,836 INFO  - Recording PID of the started process:2908. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-07 13:09:59,648 DEBUG - Starting WinSW in the service mode
+2021-09-07 13:09:59,676 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-07 13:09:59,681 INFO  - Extension loaded: killOnStartup
+2021-09-07 13:09:59,684 DEBUG - Checking the potentially runaway process with PID=2908
+2021-09-07 13:09:59,694 DEBUG - No runaway process with PID=2908. The process has been already stopped.
+2021-09-07 13:09:59,889 INFO  - Started process 19648
+2021-09-07 13:09:59,894 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-07 13:09:59,897 INFO  - Recording PID of the started process:19648. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-07 13:10:48,453 DEBUG - Starting WinSW in the CLI mode
+2021-09-07 13:10:50,005 DEBUG - User requested the status of the process with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-07 13:10:50,008 DEBUG - Completed. Exit code is 0
+2021-09-07 15:45:03,120 DEBUG - Starting WinSW in the CLI mode
+2021-09-07 15:45:06,901 INFO  - Restarting the service with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-07 15:45:06,929 DEBUG - Completed. Exit code is 0
+2021-09-07 15:45:07,353 DEBUG - Starting WinSW in the CLI mode
+2021-09-07 15:45:09,790 INFO  - Restarting the service with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-07 15:45:09,911 INFO  - Stopping jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave
+2021-09-07 15:45:09,914 DEBUG - ProcessKill 19648
+2021-09-07 15:45:10,448 INFO  - Found child process: 22508 Name: conhost.exe
+2021-09-07 15:45:10,689 INFO  - Stopping process 22508
+2021-09-07 15:45:10,733 INFO  - Send SIGINT 22508
+2021-09-07 15:45:10,743 WARN  - SIGINT to 22508 failed - Killing as fallback
+2021-09-07 15:45:10,758 INFO  - Stopping process 19648
+2021-09-07 15:45:10,788 INFO  - Send SIGINT 19648
+2021-09-07 15:45:10,791 WARN  - SIGINT to 19648 failed - Killing as fallback
+2021-09-07 15:45:10,801 INFO  - Finished jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave
+2021-09-07 15:45:10,805 DEBUG - Completed. Exit code is 0
+2021-09-07 15:45:25,495 DEBUG - Starting WinSW in the service mode
+2021-09-07 15:45:25,580 DEBUG - Completed. Exit code is 0
+2021-09-07 15:45:25,690 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-07 15:45:25,743 INFO  - Extension loaded: killOnStartup
+2021-09-07 15:45:25,782 DEBUG - Checking the potentially runaway process with PID=19648
+2021-09-07 15:45:25,854 DEBUG - No runaway process with PID=19648. The process has been already stopped.
+2021-09-07 15:45:26,889 INFO  - Started process 2880
+2021-09-07 15:45:26,917 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-07 15:45:26,934 INFO  - Recording PID of the started process:2880. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-07 15:46:26,773 DEBUG - Starting WinSW in the service mode
+2021-09-07 15:46:26,877 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-07 15:46:26,909 INFO  - Extension loaded: killOnStartup
+2021-09-07 15:46:26,929 DEBUG - Checking the potentially runaway process with PID=2880
+2021-09-07 15:46:26,984 DEBUG - No runaway process with PID=2880. The process has been already stopped.
+2021-09-07 15:46:28,021 INFO  - Started process 19144
+2021-09-07 15:46:28,039 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-07 15:46:28,059 INFO  - Recording PID of the started process:19144. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-07 15:47:14,045 DEBUG - Starting WinSW in the service mode
+2021-09-07 15:47:14,075 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-07 15:47:14,086 INFO  - Extension loaded: killOnStartup
+2021-09-07 15:47:14,091 DEBUG - Checking the potentially runaway process with PID=19144
+2021-09-07 15:47:14,114 DEBUG - No runaway process with PID=19144. The process has been already stopped.
+2021-09-07 15:47:14,372 INFO  - Started process 9692
+2021-09-07 15:47:14,379 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-07 15:47:14,383 INFO  - Recording PID of the started process:9692. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-07 15:47:48,916 DEBUG - Starting WinSW in the service mode
+2021-09-07 15:47:49,086 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-07 15:47:49,134 INFO  - Extension loaded: killOnStartup
+2021-09-07 15:47:49,159 DEBUG - Checking the potentially runaway process with PID=9692
+2021-09-07 15:47:49,251 DEBUG - No runaway process with PID=9692. The process has been already stopped.
+2021-09-07 15:47:50,990 INFO  - Started process 16572
+2021-09-07 15:47:51,036 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-07 15:47:51,069 INFO  - Recording PID of the started process:16572. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-07 15:48:39,755 DEBUG - Starting WinSW in the service mode
+2021-09-07 15:48:40,085 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-07 15:48:40,140 INFO  - Extension loaded: killOnStartup
+2021-09-07 15:48:40,169 DEBUG - Checking the potentially runaway process with PID=16572
+2021-09-07 15:48:40,242 DEBUG - No runaway process with PID=16572. The process has been already stopped.
+2021-09-07 15:48:41,745 INFO  - Started process 10656
+2021-09-07 15:48:41,775 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-07 15:48:41,807 INFO  - Recording PID of the started process:10656. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-07 15:49:26,682 DEBUG - Starting WinSW in the service mode
+2021-09-07 15:49:26,719 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-07 15:49:26,733 INFO  - Extension loaded: killOnStartup
+2021-09-07 15:49:26,741 DEBUG - Checking the potentially runaway process with PID=10656
+2021-09-07 15:49:26,765 DEBUG - No runaway process with PID=10656. The process has been already stopped.
+2021-09-07 15:49:27,218 INFO  - Started process 17184
+2021-09-07 15:49:27,229 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-07 15:49:27,234 INFO  - Recording PID of the started process:17184. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-07 15:50:42,162 DEBUG - Starting WinSW in the CLI mode
+2021-09-07 15:50:47,380 DEBUG - User requested the status of the process with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-09-07 15:50:47,400 DEBUG - Completed. Exit code is 0
+2021-09-15 20:47:48,677 DEBUG - Starting WinSW in the service mode
+2021-09-15 20:47:48,868 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-15 20:47:48,878 INFO  - Extension loaded: killOnStartup
+2021-09-15 20:47:48,878 DEBUG - Checking the potentially runaway process with PID=17184
+2021-09-15 20:47:48,888 DEBUG - No runaway process with PID=17184. The process has been already stopped.
+2021-09-15 20:47:48,909 INFO  - Started process 6636
+2021-09-15 20:47:48,917 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-15 20:47:48,979 INFO  - Recording PID of the started process:6636. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-09-15 20:47:54,027 INFO  - Stopping jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave
+2021-09-15 20:47:54,027 DEBUG - ProcessKill 6636
+2021-09-15 20:47:54,102 WARN  - Failed to locate children of the process with PID=6636. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80040154): Class not registered
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2021-09-15 20:47:54,108 INFO  - Stopping process 6636
+2021-09-15 20:47:54,111 INFO  - Send SIGINT 6636
+2021-09-15 20:47:54,142 INFO  - SIGINT to 6636 successful
+2021-09-15 20:47:54,152 INFO  - Finished jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave
+2021-09-15 20:47:54,167 DEBUG - Completed. Exit code is 0
+2021-09-29 09:23:05,568 DEBUG - Starting WinSW in the service mode
+2021-09-29 09:23:05,750 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-09-29 09:23:05,750 INFO  - Extension loaded: killOnStartup
+2021-09-29 09:23:05,789 DEBUG - Checking the potentially runaway process with PID=6636
+2021-09-29 09:23:05,801 DEBUG - No runaway process with PID=6636. The process has been already stopped.
+2021-09-29 09:23:05,821 INFO  - Started process 6676
+2021-09-29 09:23:05,821 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-09-29 09:23:05,912 INFO  - Recording PID of the started process:6676. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-10-09 17:29:01,764 DEBUG - Starting WinSW in the service mode
+2021-10-09 17:29:01,866 INFO  - Starting C:\Program Files\Java\jre1.8.0_301\bin\java.exe -Xrs  -jar "C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\slave.jar" -jnlpUrl http://192.168.1.40:8080/computer/windows-slave/slave-agent.jnlp -secret 5d2eab44c3bcdb54e6a1e1b63e43871a1921252ff518837783f648b7c290e1d6
+2021-10-09 17:29:01,898 INFO  - Extension loaded: killOnStartup
+2021-10-09 17:29:01,917 DEBUG - Checking the potentially runaway process with PID=6676
+2021-10-09 17:29:01,966 DEBUG - No runaway process with PID=6676. The process has been already stopped.
+2021-10-09 17:29:03,345 INFO  - Started process 10364
+2021-10-09 17:29:03,370 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2021-10-09 17:29:03,406 INFO  - Recording PID of the started process:10364. PID file destination is C:\Users\Pattaranan\testVagrant\maven\jenkins-slave\jenkins_agent.pid
+2021-10-09 17:29:55,481 DEBUG - Starting WinSW in the CLI mode
+2021-10-09 17:29:56,715 DEBUG - User requested the status of the process with id 'jenkinsslave-C__Users_Pattaranan_testVagrant_maven_jenkins-slave'
+2021-10-09 17:29:56,721 DEBUG - Completed. Exit code is 0

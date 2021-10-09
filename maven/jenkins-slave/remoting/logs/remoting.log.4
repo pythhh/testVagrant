@@ -1,0 +1,40 @@
+Sep 07, 2021 3:48:09 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://192.168.1.40:8080/]
+Sep 07, 2021 3:48:12 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Sep 07, 2021 3:48:12 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: 192.168.1.40
+  Agent port:    50000
+  Identity:      a8:63:6c:d3:37:17:99:67:1e:2b:d3:8f:ac:a5:a2:d7
+Sep 07, 2021 3:48:12 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+Sep 07, 2021 3:48:12 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to 192.168.1.40:50000
+Sep 07, 2021 3:48:12 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Sep 07, 2021 3:48:27 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+Sep 07, 2021 3:48:38 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Protocol JNLP4-connect encountered an unexpected exception
+java.util.concurrent.ExecutionException: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: Connection closed before acknowledgement sent
+	at org.jenkinsci.remoting.util.SettableFuture.get(SettableFuture.java:223)
+	at hudson.remoting.Engine.innerRun(Engine.java:778)
+	at hudson.remoting.Engine.run(Engine.java:540)
+Caused by: org.jenkinsci.remoting.protocol.impl.ConnectionRefusalException: Connection closed before acknowledgement sent
+	at org.jenkinsci.remoting.protocol.impl.AckFilterLayer.onRecvClosed(AckFilterLayer.java:280)
+	at org.jenkinsci.remoting.protocol.FilterLayer.abort(FilterLayer.java:164)
+	at org.jenkinsci.remoting.protocol.impl.AckFilterLayer.lambda$start$0(AckFilterLayer.java:177)
+	at org.jenkinsci.remoting.protocol.IOHub$DelayedRunnable.run(IOHub.java:959)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at hudson.remoting.Engine$1.lambda$newThread$0(Engine.java:122)
+	at java.lang.Thread.run(Unknown Source)
+
+Sep 07, 2021 3:48:38 PM hudson.remoting.jnlp.Main$CuiListener error
+SEVERE: The server rejected the connection: None of the protocols were accepted
+java.lang.Exception: The server rejected the connection: None of the protocols were accepted
+	at hudson.remoting.Engine.onConnectionRejected(Engine.java:864)
+	at hudson.remoting.Engine.innerRun(Engine.java:804)
+	at hudson.remoting.Engine.run(Engine.java:540)
+

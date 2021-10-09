@@ -1,0 +1,23 @@
+
+ENV['VAGRANT_NO_PARALLEL'] = 'yes'
+
+Vagrant.configure(2) do |config|
+
+  config.vm.provision "shell", path: "sonatype.sh"
+
+  NodeCount = 1
+
+  (1..NodeCount).each do |i|
+    config.vm.define "fortify" do |node|
+      node.vm.box = "bento/ubuntu-20.04"
+      node.vm.hostname = "fortify.example.com"
+      node.vm.network "public_network", bridge: "bridge0", adapter: "1"
+      node.vm.provider "virtualbox" do |v|
+        v.name = "fortify"
+        v.memory = 3096
+        v.cpus = 1
+      end
+    end
+  end
+
+end

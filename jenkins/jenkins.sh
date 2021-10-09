@@ -55,7 +55,7 @@ sudo git clone https://github.com/pythhh/testVagrant
 cd /var/lib/jenkins/
 sudo mkdir init.groovy.d
 sudo touch init.groovy.d/basic-security.groovy
-sudo cp /home/vagrant/testVagrant/createUser.groovy /var/lib/jenkins/init.groovy.d/basic-security.groovy
+sudo cp /home/vagrant/testVagrant/jenkins/createUser.groovy /var/lib/jenkins/init.groovy.d/basic-security.groovy
 sudo systemctl restart jenkins
 
 #disable setup wizard
@@ -63,5 +63,5 @@ cd /etc/default
 echo "JAVA_ARGS=\"-Djenkins.install.runSetupWizard=false\"" >> jenkins
 sudo mkdir init.groovy.d
 sudo touch basic-security.groovy
-sudo cp /home/vagrant/testVagrant/createUser.groovy init.groovy.d/basic-security.groovy
+sudo cp /home/vagrant/testVagrant/jenkins/createUser.groovy init.groovy.d/basic-security.groovy
 sudo systemctl restart jenkins
