@@ -3,7 +3,7 @@
 		<mirror>
 			<id>WebApp</id>
 			<mirrorOf>*</mirrorOf>
-			<url>http://10.10.10.101:8081/repository/maven-central/</url>
+			<url>http://172.16.68.8:8081/repository/maven-central/</url>
 		</mirror>
 	</mirrors>
 
